@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'
+              data: gap: https://www.paypalobjects.com/ https://www.paypal.com/ https://lh3.googleusercontent.com/ https://lh4.googleusercontent.com/ https://lh5.googleusercontent.com/ https://lh6.googleusercontent.com/ https://lh7.googleusercontent.com/ https://codepush.azurewebsites.net https://fonts.gstatic.com/ https://fonts.googleapis.com/ https://maps.gstatic.com/ https://csi.gstatic.com/ https://maps.googleapis.com/ https://accounts.google.com http://blockertechmessagetracker.azurewebsites.net;
+              style-src 'self' https://www.paypalobjects.com/ https://www.paypal.com/  https://fonts.googleapis.com/ https://csi.gstatic.com/ 'unsafe-inline';
+              script-src 'self' https://www.paypalobjects.com/ https://www.paypal.com/ https://codepush.azurewebsites.net https://csi.gstatic.com/ 'unsafe-inline';">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="scripts/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Message Tracker</title>
+</head>
+
+<body ng-app="">
+    <div class="loader" style="display:table;margin:50% auto"></div>
+    <div id="mainPage" style="visibility:hidden;" ng-include="'main.html'"></div>
+    <div id="profilePage" style="visibility:hidden;" ng-include="'profile.html'"></div>
+    <div id="settingsPage" style="visibility:hidden;" ng-include="'settings.html'"></div>
+    <div id="termsPage" style="visibility:hidden;" ng-include="'terms.html'"></div>
+    <div id="privacyPage" style="visibility:hidden;" ng-include="'privacy.html'"></div>
+    <div id="requestsPage" style="visibility:hidden;" ng-include="'requests.html'"></div>
+    <div id="messagesPage" style="visibility:hidden;" ng-include="'messages.html'"></div>
+    <div id="devicesPage" style="visibility:hidden;" ng-include="'devices.html'"></div>
+    <div id="removePage" style="visibility:hidden;" ng-include="'remove.html'"></div>
+    <div id="howToUsePage" style="visibility:hidden;" ng-include="'howToUse.html'"></div>
+    <div id="donatePage" style="visibility:hidden;" ng-include="'donate.html'"></div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="scripts/jquery/jquery-3.2.1.min.js"></script>
+    <script src="scripts/bootstrap/js/bootstrap.min.js"></script>
+    <script src="scripts/angular/angular.js"></script>
+    <script src="scripts/codepush.js"></script>
+    <!-- The 'async' attribute is needed for RequireJS to work in a Windows app -->
+    <script type="text/javascript" data-main="scripts/startup" src="lib/require.2.1.8.js" async></script>
+</body>
+</html>

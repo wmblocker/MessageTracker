@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="blockertech-cordova-sms" version="0.0.1"
+  xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>SMSRetriever</name>
+  <js-module name="SMSRetriever" src="www/SMSRetriever.js">
+    <clobbers target="cordova.plugins.SMSRetriever" />
+  </js-module>
+  <platform name="android">
+    <config-file target="config.xml" parent="/*">
+      <feature name="SMSRetriever">
+        <param name="android-package" value="com.blockertech.SMSRetriever"/>
+      </feature>
+    </config-file>
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.READ_SMS" />
+      <uses-permission android:name="android.permission.RECEIVE_SMS" />
+      <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+      <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    </config-file>
+    <source-file src="src/android/com/blockertech/SMSRetriever.java" target-dir="src/com/blockertech" />
+  </platform>
+</plugin>

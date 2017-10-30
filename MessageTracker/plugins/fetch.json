@@ -1,0 +1,170 @@
+{
+    "cordova-plugin-ms-azure-mobile-apps": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-ms-azure-mobile-apps"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-crosswalk-webview": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-crosswalk-webview@2.3.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-dialogs"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser@1.5.0"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-sqlite-storage": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-sqlite-storage@1.4.8"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1.2.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-admobpro": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-admobpro"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-extension": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-extension"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-facebookads": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-facebookads"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-background-mode": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-background-mode"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-admob-facebook": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-admob-facebook@~4.23.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "blockertech-cordova-sms": {
+        "source": {
+            "type": "local",
+            "path": "C:\\CordovaPlugins\\blockertech-cordova-sms\\SMSRetriever"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-code-push": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-code-push"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "code-push": {
+        "source": {
+            "type": "registry",
+            "id": "code-push"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-file": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-file"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-file-transfer": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-file-transfer"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-zip": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-zip"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}
